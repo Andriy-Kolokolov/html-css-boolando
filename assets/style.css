@@ -5,13 +5,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    background-color: grey;
-}
-
 /*  HEADER START  */
-
 .header {
+    /*TODO STICKY HEADER*/
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*width: 100%;*/
     display: flex;
     justify-content: center;
     height: 5rem;
@@ -67,3 +66,46 @@ body {
 }
 
 /*  HEADER END  */
+
+/*  MAIN  */
+/*  SHOP START  */
+.section-feature {
+    display: flex;
+    justify-content: center;
+}
+
+.main .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* SHOP ITEM */
+.section-feature.shop .item {
+    margin: 1rem;
+    flex: 0 1 calc(100% / 3 - 1rem * 2);
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.section-feature.shop .item img {
+    object-fit: cover;
+    object-position: center;
+    height: auto;
+    max-width: 100%;
+}
+
+.description.model {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.description.price {
+    color: crimson;
+}
+
+.description.old-price {
+    color: grey;
+    text-decoration: line-through;
+}
