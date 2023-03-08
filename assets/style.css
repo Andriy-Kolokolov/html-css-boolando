@@ -70,6 +70,7 @@
 /*  MAIN  */
 /*  SHOP START  */
 .section-feature {
+    margin-top: 3rem;
     display: flex;
     justify-content: center;
 }
@@ -145,3 +146,26 @@
     background-color: green;
 }
 
+.item img#ph1:hover{
+    content: url("img/1b.webp");
+}
+
+.item img#ph2:hover{
+    content: url("img/2b.webp");
+}
+
+.item img#ph3:hover{
+    content: url("img/3b.webp");
+}
+
+.item img#ph4:hover{
+    content: url("img/4b.webp");
+}
+
+.item img#ph5:hover{
+    content: url("img/5b.webp");
+}
+
+.item img#ph6:hover{
+    content: url("img/6b.webp");
+}
