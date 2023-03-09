@@ -146,26 +146,71 @@
     background-color: green;
 }
 
-.item img#ph1:hover{
+.item img#ph1:hover {
     content: url("img/1b.webp");
 }
 
-.item img#ph2:hover{
+.item img#ph2:hover {
     content: url("img/2b.webp");
 }
 
-.item img#ph3:hover{
+.item img#ph3:hover {
     content: url("img/3b.webp");
 }
 
-.item img#ph4:hover{
+.item img#ph4:hover {
     content: url("img/4b.webp");
 }
 
-.item img#ph5:hover{
+.item img#ph5:hover {
     content: url("img/5b.webp");
 }
 
-.item img#ph6:hover{
+.item img#ph6:hover {
     content: url("img/6b.webp");
+}
+
+/*  FOOTER  */
+.footer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #1a1a1a;
+}
+
+.footer .container {
+    padding: 1.5rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer .info ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer .social ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer .info ul, .footer .social ul {
+    margin-top: 0.5rem;
+}
+
+.footer .info ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer .social ul li:hover {
+    cursor: pointer;
+    color: salmon;
 }
